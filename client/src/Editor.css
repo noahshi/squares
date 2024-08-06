@@ -1,0 +1,109 @@
+body {
+    font-family: Oxygen;
+    background-color: rgb(50, 50, 60);
+    color:#dddddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    width: fit-content;
+    text-align: center;
+    font-size: 30px;
+    color:#ccccff;
+}
+input {
+    background-color:rgb(30, 30, 40);
+    color: #dddddd;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-family: Oxygen;
+    border-radius: 15px;
+}
+h1 {
+    font-size: 70px;
+    font-family: Oxygen;
+    color: #dddddd;
+}
+label {
+    font-size: 30px;
+    font-family: Oxygen;
+    color: #dddddd;
+    margin: 10px 0;
+    cursor: pointer;
+}
+legend {
+    font-size: 30px;
+    font-family: Oxygen;
+    color: #dddddd;
+}
+p {
+    font-size: 40px;
+    font-family: Oxygen;
+    color: #dddddd;
+    margin: 10px;
+}
+select {
+    background-color:rgb(30, 30, 40);
+    color: #dddddd;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: Oxygen;
+    border-radius: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+select:hover {
+    background-color: rgb(38, 38, 48);
+    color: #eeeeee;
+}
+ul {
+    list-style-type: none;
+}
+.op{
+    display: block;
+}
+.opButtons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.operations{
+    margin: 0 10px 8px 10px;
+    height: 83%;
+}
+.button{
+    margin: 5px 5px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(38, 38, 48);
+    color: #eeeeee;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.start{
+    display: flex;
+    flex-direction: column;
+}
+.newFileButton{
+    margin: 0 10px 10px 0;
+}
